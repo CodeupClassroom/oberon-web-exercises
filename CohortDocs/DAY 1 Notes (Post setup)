@@ -1,0 +1,532 @@
+================================= GANYMEDE WEEK 1 AGENDA
+
+  Goals...
+
+    - settle in to the day-to-day of Codeup
+    - become familiar with Mac, Terminal, and Git basics
+    - become familiar with IntelliJ
+    - progress through HTML curriculum and begin CSS I
+
+  Tentative Schedule...
+
+       Monday - Welcome Day / Set Up
+      Tuesday - Basics Intro / HTML Elements
+    Wednesday - HTML Forms
+     Thursday - CSS Intro / Selectors and Properties 
+       Friday - Staff Day (NO CLASS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= TODAY'S AGENDA
+
+  This morning...         
+    
+    Warm up
+    Classroom Expectations
+    Break
+    Basics of Mac / Terminal / Git / IntelliJ
+        
+  This afternoon...
+    
+    (possibly) HTML Elements
+
+  Announcements...
+
+    HTML / CSS Quiz in a few weeks
+
+
+
+
+
+
+
+
+
+================================= PEER INTERVIEW (20 minutes)
+
+Group up with your neighbor and take turns interviewing each other with the following questions:
+
+What draws you to coding and web development as a career?
+
+What are your greatest strengths? Weaknesses?
+
+How has your background helped prepare you for web development (technical and non-technical)?
+
+Describe your dream job in web development.
+
+What technologies interest you, web development/coding-related, and otherwise?
+
+What online resources do you use to to get the latest info/news on technology?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= SYLLABUS & HANDOUTS
+
+Please read it!
+
+Deliver excellence.
+
+Treat everyone well.
+
+Conduct yourself with professionalism (consider that THIS IS YOUR JOB).
+
+What is professional behavior? It means even on difficult days, doing the following:
+  - communicate effectively
+  - allow others to "save face", especially in conflict
+  - escalate issues upward
+  - follow through with commitments
+  - knowing your limits (when to take a break, when to disengage, when to escalate)
+
+Be heard (don't fail silently).
+
+Have a growth mindset
+
+Pro Tips: 
+
+- Always be eager to fail and make mistakes
+- Study outside of class
+- Read ahead in the curriculum
+- Wash your dishes
+- Attend meetups
+- Help each other and form study groups
+- Don't treat lectures like YouTube (be engaged)
+
+
+
+
+================================= QUIZZES AND ASSESSMENTS
+
+HTML Quiz after HTML module
+
+First JS Assessment before Loops (focuses on data types, functions, and conditional logic)
+Second JS Assessment (focuses on more functions and conditional logic)
+Third JS Assessment (focuses on functions, conditional logic, loops, arrays, and objects)
+
+JS Quiz after JS module, before Coffee Project
+
+jQuery Quiz after jQuery module
+
+DOM Assessment after jQuery module
+
+JavaScript II quiz after JS II module
+
+Java I Quiz after Java I module
+
+Java II Quiz after Java II module, before Contacts Manager
+
+Java Assessment after Java II and Contacts Manager
+
+MySQL Quiz after MySQL Module
+
+Java III Quiz after Java III, before AdLister
+
+Java III Assessment, after AdLister project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= EXPECTATIONS (Leveling Up)
+
+No. 1 learning objective:
+
+  "Working with others effectively to find and solve problems in the face of uncertainty."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to Best Use Your Resources:
+
+  First, do these things...
+
+  1. reread instructions and curriculum (if applicable)
+  2. work through a problem solving process for at least 10-15 minutes
+  3. Google errors / read forums / check documentation to acquire better context
+  4. check with other students
+
+  How to ask for help...
+
+  1. describe your current objective
+  2. describe the output you are currently getting
+  3. explain what you have already tried
+  4. describe what you think the problem/solution might be
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= MAC BASICS
+
+  - Spotlight Search
+  - cmd = ctrl (when coming from PC world)
+  - turn off force touch
+  - cmd + tab
+  - BetterSnapTool
+  - increase key repeat speed
+  - use as many keyboard shortcuts as possible (over time)
+  - learn trackpad gestures
+  - enable three-finger highlight
+  - enable "tap to click"
+
+Check out the Welcome to Codeup handout for more shortcuts
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= TERMINAL
+
+-- Intro --
+
+Everything in your file system is either a file or a folder/directory (a container for files)
+
+The Mac file system is organized in a tree-like structure:
+
+
+                        Home directory navigate to this level using cd ~
+                        (JustinReich) 
+
+                        |           |
+                        |           |
+
+               Applications/       Desktop/   Etc...
+
+            |               |          |
+            |               |          |
+
+    Calculator.app       Calendar/     somefile.txt
+
+
+
+Absolute vs. Relative file paths
+
+
+From the desktop directory to get to codeup-web-exercises...
+
+Absolute: cd ~/IdeaProjects/codeup-web-exercises
+
+Relative: 
+  cd ..
+  cd IdeaProjects
+  cd codeup-web-exercises
+
+  OR
+
+  cd ../IdeaProjects/codeup-web-exercises
+
+
+
+================================= TERMINAL EXERCISE
+
+Check out the Welcome to Codeup handout for more shortcuts.
+
+Turn your cups to YELLOW!
+Go through exercise steps in the handout
+When finished, GREEN CUP!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= CREATING CODEUP-WEB-EXERCISES REPO
+
+On GitHub, do the following...
+
+   1) click on the plus dropdown next to your profile
+   2) click "new repository"
+   3) name the repository "codeup-web-exercises"
+   4) add a description like "For class exercises"
+   5) click "create repository" button (do not change any other inputs)
+   6) on the page for an empty repository, click the first clipboard (ssh version)
+
+In IntelliJ, do the following...
+
+   7) from starting IntelliJ options, select "checkout from version control" dropdown
+   8) choose Git
+   9) paste in the GitHub repo url you copied previously
+  10) click the "clone" button
+  11) click "yes" on the next pop-up
+  12) keep clicking "yes" for each menu window then the final "finish" button
+  13) a new IntelliJ project should automatically open for codeup-web-exercises
+  14) green cup!
+
+
+
+
+
+
+
+
+
+
+
+
+================================= GIT / GITHUB (Resources in Appendix)
+
+What is Git?
+    
+What is a Version Control System?
+
+What are two distinctly different ways we can interact with Git in IntelliJ and the advantages of each??
+
+What is GitHub?
+
+What are the benefits of GitHub?
+
+Git Work Flow: status, staging, committing, pushing
+
+
+
+
+
+
+
+
+
+
+What is Git?
+  VCS version control system
+    
+What is a Version Control System?
+
+  save different versions
+  alternate timelines
+  time machine
+
+
+  first-draft.txt
+  first-draft1.txt
+  first-draft1a.txt
+  ...
+
+
+
+What are two distinctly different ways we can interact with Git in IntelliJ and the advantages of each??
+
+  Terminal
+  GUI
+
+What is GitHub?
+
+What are the benefits of GitHub?
+
+Git Work Flow
+
+  status, staging, committing, pushing
+
+
+1. Add a file
+2. add to "staging area"
+3. save "commit"
+4. push to GitHub (saving in the cloud)
+
+
+
+
+
+Make sure global configuration is correct (name and email)
+  git config --get user.name
+  git config --get user.email
+Set the global configuration if needed
+  git config --global user.name "John Doe"
+  git config --global user.email johndoe@example.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a .gitignore file with the most common entries, the .idea folder for instance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================= GIT EXERCISE
+
+Turn your cups to YELLOW!
+Go through exercise steps in the handout
+When finished, GREEN CUP!
+
+
+
+
+
+================================= CREATE CLASSROOM REPO
+
+
+
+
+
+================================= FREE DEVELOPMENT RESOURCES
+
+Google - the best resource
+w3schools.com - very helpful quick reference
+Mozilla Developer Network (MDN) - deeper technical reference than w3schools
+StackOverflow - forum for programming questions
+Codecademy - many tutorials with exercises to debug
+Lynda - free learning resource through Bibliotech Bexar County
+Treehouse.com - free learning resource through Bibliotech Bexar County
+freeCodeCamp - entire curriculum of exercises and resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
