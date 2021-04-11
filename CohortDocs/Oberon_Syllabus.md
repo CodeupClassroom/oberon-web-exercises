@@ -31,6 +31,7 @@ Students are encouraged to do their own research and utilize external resources 
 well.
 
 <div style="page-break-after: always;"></div>
+
 ## Grades
 
 Your grade is made of the following components:
@@ -106,13 +107,14 @@ to let us know.
 |-----|-------|------------  |------|
 | Mon | 9:00  | 12:30 - 1:30 | 5:00 |
 | Tue | 9:00  | 12:30 - 1:30 | 4:00 |
-| Wed | 9:00  | 12:30 - 1:30 | 5:00 |
+| Wed | 9:00  |    [EOD]    | 12:30 |
 | Thu | 9:00  | 12:00 - 1:30 | 5:00 |
 | Fri | 9:00  | 12:30 - 1:30 | 5:00 |
 
 In addition, we will often hold "Office Hours" after class to provide additional assistance or just decompress!
 
 <div style="page-break-after: always;"></div>
+
 ## How to Get Help
 
 The primary way to get your questions answered is by asking them in the
@@ -182,6 +184,7 @@ but should provide a rough outline of the class pacing.
 
 
 <div style="page-break-after: always;"></div>
+
 ### Important Dates
 
 |            Date | Event                               |
