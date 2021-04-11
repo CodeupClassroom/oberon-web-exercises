@@ -27,4 +27,4 @@ Recommend turning on 3-finger-drag and 2 finger touch <br>
 Consider BetterSnapTool for quickly resizing windows 
 and assigning keyboard shortcuts for positioning windows
 
-Increase your keyboard key fire rate (very useful for quickly deleteting) [fast-keyboard](https://ksearch.wordpress.com/2017/06/20/increase-the-key-repeat-rate-in-os-x-sierra/)
+Increase your keyboard key fire rate (very useful for quickly deleteting) [fast-keyboard](https://support.apple.com/guide/mac-help/set-how-quickly-a-key-repeats-mchl0311bdb4/mac)
