@@ -5,7 +5,7 @@
     - settle in to the day-to-day of Codeup
     - become familiar with Mac, Terminal, and Git basics
     - become familiar with IntelliJ
-    - progress through HTML curriculum and begin CSS I
+    - dip toes into JavaScript
 
   Tentative Schedule...
 
@@ -24,23 +24,35 @@
 
 
 
+================================= 4/13/21
+
+    This morning...
+
+    - Continue Set Ups
+    - Mac / Terminal / Git Exercises
+
+    This afternoon...
+
+    - Javascript With HTML
+
+    Announcements...
 
 
+================================= 4/12/21
 
-
-
-
-================================= TODAY'S AGENDA
-
-  This morning...         
-    
-    Warm up
-
-    Basics of Mac / Terminal / Git / IntelliJ
         
-  This afternoon...
+    This afternoon...
 
-  Announcements...
+    - Set up GitHub accounts
+    - Begin Set Up Scripts and Configuration
+
+    Announcements...
+
+    - GET SOME SLEEP! We have a big week ahead!
+
+    Read ahead in the curriculum
+    - Intro to JavaScript
+    - Javascript with HTML
 
 
 
@@ -131,50 +143,6 @@ Pro Tips:
 
 
 
-
-================================= QUIZZES AND ASSESSMENTS
-
-HTML Quiz after HTML module
-
-First JS Assessment before Loops (focuses on data types, functions, and conditional logic)
-Second JS Assessment (focuses on more functions and conditional logic)
-Third JS Assessment (focuses on functions, conditional logic, loops, arrays, and objects)
-
-JS Quiz after JS module, before Coffee Project
-
-jQuery Quiz after jQuery module
-
-DOM Assessment after jQuery module
-
-JavaScript II quiz after JS II module
-
-Java I Quiz after Java I module
-
-Java II Quiz after Java II module, before Contacts Manager
-
-Java Assessment after Java II and Contacts Manager
-
-MySQL Quiz after MySQL Module
-
-Java III Quiz after Java III, before AdLister
-
-Java III Assessment, after AdLister project
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ================================= EXPECTATIONS (Leveling Up)
 
 No. 1 learning objective:
@@ -214,43 +182,6 @@ How to Best Use Your Resources:
   2. describe the output you are currently getting
   3. explain what you have already tried
   4. describe what you think the problem/solution might be
-
-
-
-
-
-
-
-
-
-
-
-
-
-================================= MAC BASICS
-
-  - Spotlight Search
-  - cmd = ctrl (when coming from PC world)
-  - turn off force touch
-  - cmd + tab
-  - BetterSnapTool
-  - increase key repeat speed
-  - use as many keyboard shortcuts as possible (over time)
-  - learn trackpad gestures
-  - enable three-finger highlight
-  - enable "tap to click"
-
-Check out the Welcome to Codeup handout for more shortcuts
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -295,47 +226,7 @@ Relative:
   cd ../IdeaProjects/oberon-web-exercises
 
 
-
-================================= TERMINAL EXERCISE
-
-Check out the Welcome to Codeup handout for more shortcuts.
-
-Turn your cups to YELLOW!
-Go through exercise steps in the handout
-When finished, GREEN CUP!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-================================= CREATING CODEUP-WEB-EXERCISES REPO
+================================= CREATING OBERON-WEB-EXERCISES REPO
 
 On GitHub, do the following...
 
@@ -356,7 +247,6 @@ In IntelliJ, do the following...
   12) keep clicking "yes" for each menu window then the final "finish" button
   13) a new IntelliJ project should automatically open for codeup-web-exercises
   14) green cup!
-
 
 
 
