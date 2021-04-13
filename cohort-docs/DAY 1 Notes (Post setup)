@@ -3,7 +3,7 @@
   Goals...
 
     - settle in to the day-to-day of Codeup
-    - set up GitHub accounts
+    - set up GitHub/Instructor Tools Accounts
     - become familiar with Mac, Terminal, and Git basics
     - become familiar with IntelliJ
     - JavaScript fun!
@@ -31,10 +31,17 @@
 
     - Continue Set Ups
     - Mac / Terminal / Git Exercises
+    - Begin Set Up Scripts and Configuration
+    - Clone down oberon-web-exercises
+    - Create your first repo 'codeup-web-exercises'
 
     This afternoon...
 
     - Javascript With HTML
+
+    Tomorrow...
+
+    -Introduction to Javascript
 
     Announcements...
 
@@ -45,7 +52,10 @@
     This afternoon...
 
     - Set up GitHub accounts
+    - Get Curriculum Access / Register in Instructor Tools
+        -> tools.codeup.com/register
     - Begin Set Up Scripts and Configuration
+    - Clone down oberon-web-exercises (tentatively)
 
     Announcements...
 
@@ -227,13 +237,13 @@ Relative:
   cd ../IdeaProjects/oberon-web-exercises
 
 
-================================= CREATING OBERON-WEB-EXERCISES REPO
+================================= CREATING CODEUP-WEB-EXERCISES REPO
 
 On GitHub, do the following...
 
    1) click on the plus dropdown next to your profile
    2) click "new repository"
-   3) name the repository "oberon-web-exercises"
+   3) name the repository "codeup-web-exercises"
    4) add a description like "For class exercises"
    5) click "create repository" button (do not change any other inputs)
    6) on the page for an empty repository, click the first clipboard (ssh version)

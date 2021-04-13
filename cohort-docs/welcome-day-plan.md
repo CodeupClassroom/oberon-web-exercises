@@ -3,29 +3,10 @@
 ### MySQL Setup Problems:
 - [Ryan's Resource](https://gist.github.com/ryanorsinger/2f3fd5d15770cb8c142e5bb493dc6cde)
 
-### Kick Off
-- Peer interview warm up in Breakout rooms
+### Basics Intro (120min - possibly into Tuesday)
 
-### Expectations (~30min)
-- Share handouts and syllabus
-- Go through expectation notes
-
-### Basics Intro (120min)
-- Send Mac basics handout and review over basic commands (15 minutes)
-  - Spotlight
-  - cmd = ctrl
-  - turn off force touch
-  - cmd + tab
-  - BetterSnapTool
+- [Git Overview](https://java.codeup.com/appendix/git/intellij-intro)
   
-- Intro terminal (30min)
-  - filesystem
-  - ls, cd, pwd, ~, .., auto-complete, ls -a
-  - absolute vs. relative paths
-  - mv, mkdir, rm, rm -rf
-  
-- Terminal exercise (30min)
-
 - Intro Git and GitHub (30min)
   - What is Git? a Version Control System
   - What is a Version Control System?
@@ -40,6 +21,27 @@
     - Online storage for repositories
   - What are the benefits of GitHub?
     - Easy collaboration
-    
+
+- Send Mac basics handout and review over basic commands (15 minutes)
+  - Spotlight
+  - cmd = ctrl
+  - turn off force touch
+  - cmd + tab
+  - BetterSnapTool
+
+- Intro terminal (30min)
+  - filesystem
+  - ls, cd, pwd, ~, .., auto-complete, ls -a
+  - absolute vs. relative paths
+  - mv, mkdir, rm, rm -rf
+
+- Terminal exercise (30min)
+
 - Git exercise (30min)
+
+### Expectations (~30min)
+- Share handouts and syllabus
+- Go through expectation notes
+
+
 
