@@ -24,7 +24,6 @@
 
 ### How to Succeed as a Codeup student
 1. Own your learning experience
-
     - Make sure you're **solid** on vocabulary, fundamentals, and first principles.
     - Be honest with yourself and your comprehension. Be open with us. Ask for help.
     - We can explain things to you, but we can't understand it for you

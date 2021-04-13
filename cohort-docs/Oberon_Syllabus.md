@@ -51,33 +51,41 @@ Your grade is made of the following components:
     - No credit will be given for files that are not in the correct location
     - Only files on the master branch will be graded (unless otherwise noted)
 
-## Classroom Conduct
+## Being a Decent Human
 
-Please be respectful and professional in your interactions with Codeup staff, your peers and potential employers.
+Please be respectful and professional in your interactions with Codeup staff, your peers, and potential employers.
 
 **Do**
 
+- Work tenaciously!
+- Lift all higher
+- Be Vulnerable
+  - It's okay to admit what you don't know and ask for help.
 - Ask questions
+  - Leave space for everyone to share their own curiosity
   - Vocally, in Zoom chat, or Slack -> All are welcome!
 - Collaborate with and help your peers
   - Sometimes we learn best from each other!
 - Be curious and seek out new challenges
-  - Finished with your work and want more. Ask!
+  - Finished with your work and want more? Ask!
   - Want to pick up that online project? Do it!
-- Silence your cellphone
-  - Don't be the reason someone is distracted from a lesson and misses something important.
 - Take breaks when you need them
-  - Self-care is self-love 
-
+  - Use your good judgement and be ready to catch up!
+- Make sure to mute!
+  - Don't be the reason someone is distracted from a lesson and misses something important.
+  
 **Avoid**
 
-- Engage in off-task activities during class time (YouTube, Netflix, news
-  sites, gameing, social media, etc.)
-- Call and text on your cellphone
-- Discourage others
-- Sleep during class hours
+- Being unkind. 
+  - The better we treat each other, the more we all learn.
+- Cliques
+  - Our unconscious biases sometimes leave brilliance behind.
+- Projecting frustration onto others
+  - When things get tough, take a second. Take a breath and reach out. We're all in this together.
+- Not muting
+  - I mean... really, we can hear you.
 
-We ask that you leave the classroom to perform non-classroom related activities.
+If you need to take care of personal business, just give us a heads up. We all have things to take care of in this remote setting.
 
 ### Attendance
 
@@ -99,6 +107,7 @@ to let us know.
 
 #### Classroom Hours:
 
+- All times are in Central Standard/Daylight
 - Generally 9 to 5
 - End early on Tuesdays (4pm)
 - Long lunch or lunchtime speakers on Thursdays

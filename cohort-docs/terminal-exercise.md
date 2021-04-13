@@ -1,7 +1,5 @@
 # Terminal Exercise
 
-YELLOW CUP!
-
 1. Navigate to your desktop
 1. Navigate to your home (~) directory
 1. Navigate to ~/desktop

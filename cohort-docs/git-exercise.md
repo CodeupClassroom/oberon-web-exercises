@@ -1,7 +1,5 @@
 # Git Exercise
 
-YELLOW CUP!
-
 Open codeup-web-exercises in IntelliJ and do the following in the IntelliJ terminal...
 
 1. Create a text file in the root project directory (codeup-web-exercises) called git-test.txt

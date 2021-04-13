@@ -11,6 +11,9 @@
 - **cd ..** - Go to the parent directory
 - **touch** - Creates an empty file
 - **cat** - Show the contents of a file
+  
+- **echo "(your text)" > (destination text file)** - write to a text file  
+    - you must wrap the text you want to write in ' ' or " "
 - **mv** - Move a file with mv <filename> <location and or new name>
 - **cp** - Copy a file with cp <file to copy> <location and or name of copy>
 - **rm** - Delete files
