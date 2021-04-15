@@ -107,7 +107,7 @@ console.log(isNaN(21));
 
 console.log(parseInt("1 way to go!")); // trims characters from the end
 
-console.log(parseInt("I am number 1")) // NaN - only trims from after the first occurence of numeric characters
+console.log(parseInt("I am number 1")) // NaN - only trims from after the first occurrence of numeric characters
 
 // .length - returns the count of characters in a string (including whitespaces)
 
