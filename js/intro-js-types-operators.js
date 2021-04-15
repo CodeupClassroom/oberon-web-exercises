@@ -35,11 +35,17 @@
 
 // See Also: https://en.wikipedia.org/wiki/George_Boole
 
-// console.log(true);
-// console.log(false);
+// There are two types of basic booleans:
+// boolean literal and boolean value
 
+// console.log(true) // literal
+//
+// var myBool = true;
+// console.log(myBool) // value
 
-// ******* BOOLEAN EXPRESSIONS AND CONDITIONALS ********
+// More often, we will use a boolean value when passing around this type
+
+// ******* BOOLEAN EXPRESSIONS WITH CONDITIONALS ********
 
 // Let's discuss booleans more
 // At its base, any decision can be boiled down to a boolean
@@ -62,7 +68,7 @@
 
 // var iAmHungry = true;
 //
-// if (iAmHungry){ // and I am ALWAYS hungry
+// if (iAmHungry){ // because we aren't passing a direct true or false here, it is called a BOOLEAN VALUE
 //     console.log("Let's find some fooooooood fam!");
 // }
 
@@ -76,11 +82,13 @@
 
 // We could also determine true/false by comparison!
 
-var hoursSinceMeal = 5;
+//var hoursSinceMeal = 5;
 
-if (hoursSinceMeal > 4){
-    console.log("I'm getting a little hungry");
-}
+// hoursSinceMeal > 4 is a boolean expression. It is an EXPRESSION which evaluates to a BOOLEAN
+
+// if (hoursSinceMeal > 4){
+//     console.log("I'm getting a little hungry");
+// }
 
 // Probably should talk about numbers, eh?
 
@@ -109,7 +117,7 @@ if (hoursSinceMeal > 4){
 
 // Just like in normal math, Order of Operations are followed -> PEMDAS -> Parenthesis-Exponents-Multiply/Divide-Add/Subtract
 
-console.log( (2 * 5) / (5 + 2) - (2 ** 2)); // instead of **, we could use Math.pow() --> look it up!
+// console.log( (2 * 5) / (5 + 2) - (2 ** 2)); // instead of **, we could use Math.pow() --> look it up!
 
 
 // Mini Exercise - Numbers and Math
@@ -122,7 +130,7 @@ console.log( (2 * 5) / (5 + 2) - (2 ** 2)); // instead of **, we could use Math.
 
 // ******* STRING WITH OPERATORS (+)
 
-// console.log("Casey" + " " + "Edwards"); // Casey Edwards
+// console.log("Casey" + " " + "Edwards"); // Casey Edwards -> you must add the extra space in between if you want it
 
 // ******* STRING -> Single Quotes
 // We can use single quotes as well, but there are special rules to go along
@@ -149,7 +157,7 @@ console.log( (2 * 5) / (5 + 2) - (2 ** 2)); // instead of **, we could use Math.
 // console.log(name);
 
 // In many other languages, this situation would produce a null result.
-// Javascript has a distinction of unassigned pointers vs assigned, valueless pointers
+// Javascript has a distinction of (unassigned pointers) vs (assigned, valueless pointers)
 
 // More Reading:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
@@ -170,7 +178,7 @@ console.log( (2 * 5) / (5 + 2) - (2 ** 2)); // instead of **, we could use Math.
 // ******** TYPEOF *********
 
 // typeof is a way we can easily declare the type of an operator
-console.log(typeof(31));
+//console.log(typeof(0)); // using the typeof operator
 
 // MINI EXERCISE
 // TODO: console.log() the type of each of the following
@@ -180,6 +188,9 @@ console.log(typeof(31));
 // 4 * "5"
 // "Trolllollolol"
 // 4 > 3
+
+
+
 
 
 
