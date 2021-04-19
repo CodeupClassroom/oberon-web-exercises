@@ -243,28 +243,6 @@
     //  -> After all switch statement functions successfully return the user's input, concatenate them all into a nicely-formatted string and return all data to the user
     //endregion
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 })()
 
 
