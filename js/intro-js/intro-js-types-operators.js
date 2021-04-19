@@ -14,6 +14,17 @@
 // https://www.w3schools.com/js/js_strict.asp#:~:text=The%20%22use%20strict%22%20directive%20was,for%20example%2C%20use%20undeclared%20variables
 
 
+// ******* Truthy / Falsy *******
+
+// This is an intriguing concept in Javascript, and unique to it and Python
+
+// Essentially, all values are considered 'true' unless they are defined as not
+
+// Weird, right? So, all values except:
+// false, 0, -0, 0n, "", null, undefined, and NaN (Not a Number)
+
+// Deep Dive: https://medium.com/jspoint/truthy-vs-falsy-values-in-javascript-b9d9ada08bae
+
 
 // =========== TYPES ===========
 
