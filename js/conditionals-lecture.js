@@ -68,7 +68,6 @@
     //     } else{
     //         console.log("I think my friend can give us a lift!");
     //     }
-    //
     // }
     //
     // getToDestination(22, true, false, true);
@@ -79,7 +78,7 @@
     //  -> However, *be sure* that you have some sort of fallback logic to handle unforeseen conditions
 
     //region TODO: MINI EXERCISE -> IF / ELSE IF / ELSE
-
+    // TODO: MINI EXERCISE -> IF / ELSE IF / ELSE
     //  -> Let's augment our getToDestination() function
     //  -> Create a function called canGetRideshare() which will *RETURN* a boolean
     //      -> It will determine if there are drivers nearby and the person has enough money for the ride
@@ -143,21 +142,21 @@
     // }
 
     // TODO: Bad Ternary
-    function showFatType(){
-
-        var fatType = "margarine";
-        var isButter = fatType.toLowerCase() === "butter";
-
-        var loggingStatement = fatType.toLowerCase() === "butter"
-            ? "'Mo' butta, mo' betta!' \n\t-Paula Deen"
-            : fatType.toLowerCase() === "margarine"
-                ? "'I Can't Believe It's Not Butter!' \n\t-Fangirls of Favio"
-                : fatType.toLowerCase() === "oil"
-                    ? "A little oil in the pan, I'm a big fan"
-                    : "Not sure what kind of fat this is...";
-
-        console.log(loggingStatement);
-    }
+    // function showFatType(){
+    //
+    //     var fatType = "margarine";
+    //     var isButter = fatType.toLowerCase() === "butter";
+    //
+    //     var loggingStatement = fatType.toLowerCase() === "butter"
+    //         ? "'Mo' butta, mo' betta!' \n\t-Paula Deen"
+    //         : fatType.toLowerCase() === "margarine"
+    //             ? "'I Can't Believe It's Not Butter!' \n\t-Fangirls of Favio"
+    //             : fatType.toLowerCase() === "oil"
+    //                 ? "A little oil in the pan, I'm a big fan"
+    //                 : "Not sure what kind of fat this is...";
+    //
+    //     console.log(loggingStatement);
+    // }
 
     // DEEP DIVE: https://stackoverflow.com/questions/10526739/a-somewhat-painful-triple-nested-ternary-operator
 
@@ -181,37 +180,38 @@
     function getHeartRateRange(){
         var age = 26;
         var heartRange;
-        switch (age){
-
-            case age >= 20 && age < 30:
+        var inRange = true;
+        switch (inRange){
+            case (age >= 20) && (age < 30):
                 heartRange = "100-170";
                 break;
-            case age >= 30 && age < 35:
+            case (age >= 30) && (age < 35):
                 heartRange = "95-162";
                 break;
-            case age >= 35 && age < 40:
+            case (age >= 35) && (age < 40):
                 heartRange = "93-157";
                 break;
-            case age >= 40 && age < 45:
+            case (age >= 40) && (age < 45):
                 heartRange = "90-153";
                 break;
-            case age >= 45 && age < 50:
+            case (age >= 45) && (age < 50):
                 heartRange = "88-149";
                 break;
-            case age >= 50 && age < 55:
+            case (age >= 50) && (age < 55):
                 heartRange = "83-140";
                 break;
-            case age >= 55 && age < 60:
+            case (age >= 55) && (age < 60):
                 heartRange = "80-136";
                 break;
-            case age >= 60 && age < 65:
+            case (age >= 60) && (age < 65):
                 heartRange = "78-132";
                 break;
-            case age >= 65 && age < 70:
+            case (age >= 65) && (age < 70):
                 heartRange = "75-128";
                 break;
             default:
                 heartRange = "Age outside of range. Cannot determine ideal heart rate";
+                break;
         }
         return heartRange;
     }
