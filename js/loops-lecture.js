@@ -255,3 +255,194 @@ do{
 } while(spacesAvailable >= 1);
 
 var numOfCars = 2;
+
+
+/* FRIDAY, APRIL 23, 2021 */
+// // FOR LOOPS
+// // - https://media.giphy.com/media/3oKHWtYezLmdjusZhe/giphy.gif
+
+
+// // SYNTAX:
+// // for: js keyword that says: "hi js, I'm about to start a for loop, please treat it as such"
+// // (starting point; stopping point; how to iterate;)
+// // {code to be executed AT EACH ITERATION}
+
+// for(let i = 0; i <= 10; i += 5){
+// //    code to be executed
+//     console.log('hello world ' + i);
+// }
+
+//
+// for(let i = 10; i >= 0; i--){
+//   // 10 // 9 // ... // 0
+//     console.log(`hello world ${i}`)
+// }
+
+
+// for(let x = 10; x <= 25; x++){
+//     console.log(x * 2);
+// }
+
+
+// for(let i = 0; i <= 10; i++){
+//     console.log(`on iteration #: ${i}`);
+// }
+
+// // EXAMPLES:
+// // egg cartons. How many egg cartons can you fill? start at zero eggs and iterate by 1. 72 eggs
+// // we filled X amount of egg cartons
+
+// // if statement inside a for loops
+// // initialize cartons
+// // for with eggs as the iterating variable
+// counter cartons
+
+// var carton = 0;
+// for(let eggs = 1; eggs <= 72; eggs++ ){
+//     // console.log('eggs: ' + eggs);
+//     if(eggs % 12 == 0){
+//         carton ++;
+//         console.log(`We've filled ${carton} amount of egg cartons with ${eggs} number of eggs`);
+//     }
+// }
+
+// for(let i = 0; i <=10; i++){
+//     console.log(i);
+// }
+
+// // EXTRA: NESTED FOR LOOPS
+// write a (nested) for loop that counts from 1 to 5 and then from 5 to 1
+
+// // loop to count from 1 to 5;
+// // starting point
+// // return a value
+// // increment
+// // variable that will hold count;
+// // logging the current count
+// // conditional - stopping point
+
+for(let counter = 1; counter <= 5; counter++ ){
+    console.log(counter);
+
+    // nested loop: another for loop
+    // // count from 5 to 1
+    // // log those numbers
+
+    if(counter === 5){
+        for(let counterTwo = 5; counterTwo > 0;  counterTwo--){
+            // console.log(`inner counter: ${counter}`);
+            console.log(counterTwo);
+        }
+    }
+
+}
+
+console.log('-------------')
+// // * wrap inner loop in a function
+// function innerLoop(){
+//     for(let counterTwo = 5; counterTwo > 0;  counterTwo--){
+//         // console.log(`inner counter: ${counter}`);
+//         // console.log(counterTwo);
+//         return counterTwo;
+//     }
+// };
+//
+// function outerLoop(){
+//     for(let counter = 1; counter <= 5; counter++ ){
+//         console.log(counter);
+//
+//         if(counter === 5){
+//             innerLoop();
+//         }
+//     }
+// }
+
+console.log(outerLoop());
+
+
+
+
+
+
+
+// // write a function that outputs
+//
+// // 99 bottles song ...
+// // 99 bottles of water on the wall,
+// 99 bottles of water,
+// Take one down, pass it around,
+// 98 bottles of water on the wall!
+// 98 bottles of water on the wall,
+// 98 bottles of water,
+// Take one down, pass it around,
+// 97 bottles of water on the wall!
+// // --
+// // what do we need to take into account?
+// // - if bottle is 1 say bottle not bottles
+// //
+
+// TODO: Loop through a set of numbers (0-30), if the number you're currently at is even, add 2 to it. If it's an
+//  odd number, print "odd"
+// // HINT: remember the remainder operator (modulo)
+
+
+
+// // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
+//  If it's neither print "I'm not playing"
+//  Print "marco polo" if it's divisible by 3 and 5.
+
+
+
+// // TODO: BONUS! wrap each of your for loops within functions
+
+
+
+// // BREAK AND CONTINUE
+
+//// we've seen break in switch statements
+// // break: helps avoid infinite loops
+// // break: leaves the switch statement if it meets a certain condition
+
+// // continue: js keyword
+
+
+// var dozens = 0;
+// for(let i = 0; i <= 36; i++){
+//     if(i % 12 === 0){
+//         console.log(`starting with: ${dozens} dozen eggs`);
+//         dozens++;
+//         console.log(dozens)
+//         break; // exits out of the loop
+//         console.log(`we now have ${dozens} dozen eggs`);
+//     }
+// }
+
+// for(let i =0; i <= 10; i++){
+//
+//     console.log(`first: ${i}`); // 0 // 1
+//     // continue; // --> continues to the next iteration; exit current iteration and move onto the next iteration
+//     i = i*2; // 0 // 2
+//     console.log(`second ${i}`); // 0 //2
+//     break;
+// }
+
+// // use case: conditionally
+
+
+// 0
+
+
+
+
+//
+// var dozens = 0;
+// for(let i = 0; i <= 36; i++){
+//     if(i % 12 === 0){
+//         console.log(`starting with: ${dozens} dozen eggs`);
+//         dozens++;
+//         continue; // continues on to the next iteration
+//         console.log(`we now have ${dozens} dozen eggs`);
+//     }
+// }
+
+
