@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms Lecture</title>
+    </head>
+    <body>
+
+    <!-- This is the point where we *need* to think about HTML element attributes
+        -> Attributes are in an element just the same as you would think in other parts of life
+        -> They help us describe individual characteristics of a particular element
+        -> Our basic attributes we have for a <form> are:
+            -> method - This tells our browser what the purpose of the data for this form will be
+                -> A couple of example attribute values we will see:
+                -> POST - We are posting new data to a source
+                -> GET - Use the data you enter in the form to request other data (ie: a search)
+            -> action - This tells our browser WHERE to send the data we entered
+                -> We will either send data to an external endpoint (url), or
+                -> to an internal endpoint elsewhere in our application
+    -->
+
+        <!-- TODO: 1) Let's build a basic form and dissect it -->
+    <!--    <form method="POST" action="https://request-inspector.glitch.me/">-->
+    <!--&lt;!&ndash; TODO: 2) Now, on it's own, this form does nothing-->
+    <!--        -> We need to add elements to allow us to enter data and submit that data to an endpoint-->
+    <!--&ndash;&gt;-->
+    <!--&lt;!&ndash; TODO: 3) We need to let the user know what they are filling out and why-->
+    <!--        -> We can do one of two things:-->
+    <!--            -> Either give the <input> a placeholder attribute, and/or-->
+    <!--            -> Create a <label> element that links to the <input> via attribute-->
+    <!--&ndash;&gt;-->
+    <!--        &lt;!&ndash; <label> links to <input> via the input's id attribute &ndash;&gt;-->
+    <!--        <label for="username"></label>-->
+    <!--        &lt;!&ndash; inputs should have id, name, and type attributes by default&ndash;&gt;-->
+    <!--        &lt;!&ndash; *name* is especially important. If the input has no name, the data will not be submitted from that input! &ndash;&gt;-->
+    <!--        &lt;!&ndash; an input must have an *id* so that it can be referenced by your other files (CSS, JS, etc) &ndash;&gt;-->
+    <!--        &lt;!&ndash; the *type* will revert to default if you don't specify the attribute &ndash;&gt;-->
+    <!--        <input id="username" name="username" type="text" placeholder="username">-->
+    <!--        <br>-->
+    <!--        &lt;!&ndash; We can make a input of attribute type "submit" &ndash;&gt;-->
+    <!--        <input type="submit" value="Submit - Input">-->
+    <!--        &lt;!&ndash; We could also create a <button> element. Its default type attribute is "submit"&ndash;&gt;-->
+    <!--        <button>Submit - Button</button>-->
+    <!--    </form>-->
+
+        <br>
+    <!-- TODO: 4) Query Strings and GET methods
+            -> When we label a form method as GET and submit a request
+            -> The data we enter into a form is appended to the action attribute
+            -> That data is sent to the endpoint in a query string
+                -> The query string has a consistent format
+                -> ?firstInputId=inputValue&...
+                    -> ? - Begin the query
+                    -> firstInputId=inputValue - first identified input
+                    -> & - Divider if there are more inputs in form
+    -->
+    <!--    <form method="GET" action="https://request-inspector.glitch.me/">-->
+    <!--        <input id="getUsername" name="getUsername" type="text" placeholder="username">-->
+    <!--        &lt;!&ndash; TODO: 5) add another input and inspect the resulting query string &ndash;&gt;-->
+    <!--        <br>-->
+    <!--        <button>Submit</button>-->
+    <!--    </form>-->
+        <br>
+    <!--TODO 6) Different input type attribute values
+            -> Let's make a new form and try out a few
+    -->
+    <!--    <form method="POST" action="https://request-inspector.glitch.me/">-->
+
+    <!--        &lt;!&ndash; TODO: 7) More input type use cases&ndash;&gt;-->
+    <!--        &lt;!&ndash; An easy way to start validating input data from the UI is to use types &ndash;&gt;-->
+    <!--        &lt;!&ndash; Here, we will use type="email" &ndash;&gt;-->
+    <!--        <input id="email" name="email" type="email" placeholder="email">-->
+
+    <!--        &lt;!&ndash; TODO: 8) switching input type attribute-->
+    <!--                       -> passwords are sensitive data. Let's hide the keystrokes-->
+    <!--                       -> change the type attribute to "password"-->
+    <!--         &ndash;&gt;-->
+    <!--        <input id="password" name="password" type="password" placeholder="password">-->
+
+    <!--        &lt;!&ndash; TODO 9) Radio Buttons-->
+    <!--                -> Along with changing the input text box behavior, we can alter the entire element-->
+    <!--                -> This helps to restrict/expand what the user can submit for a given category-->
+    <!--                    -> Perhaps we only want them to pick certain options for their role in a company-->
+    <!--                    -> Maybe we want to make sure they can only select ONE option (or MANY)-->
+    <!--        &ndash;&gt;-->
+    <!--        &lt;!&ndash; In this case, let's make an input so a user can select their role at our company-->
+    <!--             Like when we do an email/password, RADIO BUTTONS are created by changing the type attribute-->
+    <!--             type="radio"-->
+
+    <!--             TODO: BY DEFAULT, type="radio" will have a value of *on* or *off*-->
+    <!--                -> Best practice is to set an actual value attribute-->
+    <!--                -> on / off tells us nothing of use!-->
+    <!--                -> value="the actual value of the button"-->
+    <!--                -> your result will look nice-->
+    <!--                    -> {"role": "student"} instead of-->
+    <!--                    -> {"role": "on"} &#45;&#45;What does that even mean?!-->
+    <!--         &ndash;&gt;-->
+    <!--        <input id="role-student" name="userRole" type="radio" value="student">-->
+    <!--        &lt;!&ndash; But how do we actually see what the radio button represents??&ndash;&gt;-->
+    <!--        &lt;!&ndash; TODO: 10) <label>-->
+    <!--                -> We can use a label to help the user see what option their <input type="radio"> represents-->
+    <!--                -> To associate a <label> with an <input>,-->
+    <!--                    -> give the *for* attribute the value of the *id* attribute of your <input>-->
+    <!--                        -> <input id="myId">-->
+    <!--                        -> <label for="myId">-->
+    <!--                -> Give the label content which will be shown to the user-->
+    <!--                    -> <label>Purpose of Radio Button</label>-->
+    <!--        &ndash;&gt;-->
+    <!--        <label for="role-student">Student</label>-->
+
+    <!--        &lt;!&ndash; TODO: 11) adding many radio buttons and grouping together-->
+    <!--                -> What use is just one option?-->
+    <!--                -> We can add many radio buttons and group them together using the *name* attribute-->
+    <!--                    -> name="userRole"-->
+    <!--        &ndash;&gt;-->
+    <!--        <input id="role-instructor" name="userRole" type="radio" value="instructor">-->
+    <!--        <label for="role-instructor">Instructor</label>-->
+
+    <!--        &lt;!&ndash; TODO: 12) Checkboxes-->
+    <!--                -> Sometimes, we just need to let the user tell us yes/no-->
+    <!--                -> Let's use type="checkbox"-->
+    <!--                -> Unlike type="radio", we will allow only one box/button-->
+    <!--                    -> The input will pass yes/no, true/false, on/off to the request based on if it is checked-->
+    <!--        &ndash;&gt;-->
+    <!--        &lt;!&ndash; Like type="radio" we need a label in order to describe the purpose-->
+    <!--             Also, we need to set the value *IF* we desire a specific value other than on/off-->
+    <!--        &ndash;&gt;-->
+    <!--        <input id="isActive" name="isActive" type="checkbox" value="1">-->
+    <!--        <label for="isActive">Currently Active</label>-->
+    <!--        <button>Submit</button>-->
+    <!--    </form>-->
+        <br>
+
+        <!-- TODO: 13) Dropdowns... I mean <select>
+                -> Let's talk about how to make dropdowns
+                -> Easy enough, just use the <select> tag
+                -> *WITHIN* that <select><select/>, you add an <option></option> for each... option
+        -->
+    <!--        <form method="POST" action="https://request-inspector.glitch.me/">-->
+    <!--            <select name="currentModule" id="currentModule" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">-->
+    <!--                &lt;!&ndash; Unlike standard input values, you must set content (the space between open/close tags)-->
+    <!--                     Otherwise, the user will not see the choices they can make-->
+    <!--                     -->
+    <!--                     Fun stuff: The value attribute of an element doesn't *have* to be just text data-->
+    <!--                        It could also be a file path, an external URL, or even more JavaScript-->
+    <!--                &ndash;&gt;-->
+    <!--                <option value="html-css-trolllol.html">JavaScript I</option>-->
+    <!--                <option value="js-i-trollol.html">HTML/CSS</option>-->
+    <!--                <option value="assets/kvatch.gif">Enter Gate At Kvatch</option>-->
+    <!--            </select>-->
+    <!--        </form>-->
+    </body>
+</html>
+
+
+<!--Additional Resources
+    <form> - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    <input> - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    <button> - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+
+
+-->
