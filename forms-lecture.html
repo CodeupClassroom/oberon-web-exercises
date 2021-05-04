@@ -136,19 +136,19 @@
                 -> Easy enough, just use the <select> tag
                 -> *WITHIN* that <select><select/>, you add an <option></option> for each... option
         -->
-    <!--        <form method="POST" action="https://request-inspector.glitch.me/">-->
-    <!--            <select name="currentModule" id="currentModule" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">-->
-    <!--                &lt;!&ndash; Unlike standard input values, you must set content (the space between open/close tags)-->
-    <!--                     Otherwise, the user will not see the choices they can make-->
-    <!--                     -->
-    <!--                     Fun stuff: The value attribute of an element doesn't *have* to be just text data-->
-    <!--                        It could also be a file path, an external URL, or even more JavaScript-->
-    <!--                &ndash;&gt;-->
-    <!--                <option value="html-css-trolllol.html">JavaScript I</option>-->
-    <!--                <option value="js-i-trollol.html">HTML/CSS</option>-->
-    <!--                <option value="assets/kvatch.gif">Enter Gate At Kvatch</option>-->
-    <!--            </select>-->
-    <!--        </form>-->
+            <form method="POST" action="https://request-inspector.glitch.me/">
+                <select name="currentModule" id="currentModule" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <!-- Unlike standard input values, you must set content (the space between open/close tags)
+                         Otherwise, the user will not see the choices they can make
+
+                         Fun stuff: The value attribute of an element doesn't *have* to be just text data
+                            It could also be a file path, an external URL, or even more JavaScript
+                    -->
+                    <option value="html/css">HTML/CSS</option>
+                    <option value="js-i-trollol.html">JavaScript I</option>
+                    <option value="assets/kvatch.gif">Enter Gate At Kvatch</option>
+                </select>
+            </form>
     </body>
 </html>
 
