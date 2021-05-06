@@ -1,0 +1,69 @@
+body {
+    margin      : 0 auto;
+    font-family : Calibri;
+}
+
+/*
+TODO: notice in the html that we have
+    those nice anchor tags?
+    ->What good are they if we have to
+    scroll up to use them?
+    -> ENTER -> position: fixed
+*/
+header {
+    background-color : lightskyblue;
+    padding          : 2%;
+    position         : fixed;
+    width            : 100%;
+    height: 22px;
+}
+
+#nav-anchor-container {
+    margin     : 0 auto;
+    list-style : none;
+    padding    : 0;
+}
+
+#nav-anchor-container li {
+    display : inline;
+    padding : 1%;
+}
+
+/*
+    TODO: Now, we have an issue with the
+        content of the blog being hidden
+        by the fixed position of the header
+        -> We could use padding to fix that,
+        -> But that's not a great use of the padding
+        property
+        -> Let's try to use a different property
+        -> position: relative/absolute
+*/
+main {
+    position : relative;
+    height: 500px;
+}
+
+#blog-content-container {
+    position : absolute;
+    top      : 15%;
+}
+
+#blog-title {
+    padding-left : 2%;
+}
+
+.paragraph-container p {
+    padding : 2%;
+    margin  : 0;
+}
+
+/*
+    TODO: Now, I've created my blog!
+        -> Still a problem is the fact that my content
+        is seen behind the header/nav when scrolling down
+        -> You're job is to identify why
+            -> Does something need to be added?
+            -> Is my use of positioning correct?
+            -> Can some other style be changed?
+*/
