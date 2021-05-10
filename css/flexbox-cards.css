@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #b4d455;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    /* TODO: Make this a flex container and align its items to the center*/
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    /*  TODO: Change this flex items basis to 100% of the page  */
+
+}
+
+.card-title {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* TODO: Flex is allowing our cards to be aligned to each other
+    -> How can we do the same for the feature-items within each card?
+    -> Same for the buttons. Let's use flex to get the card children aligned!*/
+
+.card-body {
+    padding-bottom: 1em;
+}
+
+.feature-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.feature-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.price {
+    font-size: 50px;
+    font-family: serif;
+    margin: 10px 0;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background: #847477;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
