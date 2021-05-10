@@ -1,0 +1,84 @@
+
+section {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    /* must have display:flex to 'unlock' all other flexbox properties*/
+    display: flex;
+    /* changes the direction of 'main axis vs cross axis*/
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.boxes {
+    height: 200px;
+    min-width: 200px;
+    background-color: darkslategrey;
+    border: 3px solid #0E2A23;
+    margin: 25px;
+    color: white;
+    font-size: 32px;
+    padding: 25px;
+}
+
+#two {
+    height: 500px;
+}
+
+#four {
+    height: 50px;
+}
+
+#six {
+    height: 250px;
+    /*flex-grow: 6;*/
+}
+
+
+.order {
+    /*order: 1;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.flex-container {*/
+/*    background-color: #C6CFEC;*/
+/*    border: 2px solid black;*/
+/*    height: 600px;*/
+/*}*/
+
+/*.flex-container div {*/
+/*    background-color: #140E2A;*/
+/*    border: 2px solid white;*/
+/*    margin: 10px;*/
+/*    padding: 20px;*/
+/*    font-size: 30px;*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*}*/
+
+/*#orange {*/
+/*    background-color: orange;*/
+/*    height: 75px;*/
+/*}*/
+
+/*#purple {*/
+/*    background-color: purple;*/
+/*    height: 125px;*/
+/*}*/
+
+/*#green {*/
+/*    background-color: #2E8A5D;*/
+/*    height: 175px;*/
+/*}*/
