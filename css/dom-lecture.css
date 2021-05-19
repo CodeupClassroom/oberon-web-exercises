@@ -1,0 +1,59 @@
+body {
+    color: black;
+    /*background-color: #37404f;*/
+    background-color: tan;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 12px;
+    margin: 3px;
+}
+
+.exercise {
+    margin: 50px 0;
+}
+
+#red-border {
+    border: 2px solid red;
+}
+
+#blue-border {
+    border: 2px solid blue;
+}
+
+#green-border {
+    border: 2px solid green;
+}
+
+#orange-border {
+    border: 2px solid orange;
+}
+
+#pink-border {
+    border: 2px solid pink;
+}
+
+#green-border {
+    border: 2px solid green;
+}
+
+#yellow-border {
+    border: 2px solid yellow;
+}
+
+.blue-bkg {
+    background-color: blue;
+}
+
+.red {
+    color: red;
+}
+
+#light-green {
+    color: lightgreen;
+}
+
+.drk-grn {
+    color: darkgreen;
+}
