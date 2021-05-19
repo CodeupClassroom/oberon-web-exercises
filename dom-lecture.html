@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+              href="./main.css">
+        <title>DOM Lecture</title>
+    </head>
+    <body>
+
+
+        <!--  DOM EXAMPLES   -->
+
+        <p class="red">
+            DOM is really fun!
+        </p>
+        <p id="light-green">
+            DOM is really fun!
+        </p>
+        <p class="red" id="unique">
+            DOM is really fun!
+        </p>
+
+        <!-- BOOTSTRAP GRID 1 row 4 columns-->
+        <!--container-->
+        <div class="container-fluid border">
+            <!--row-->
+            <div class="row border">
+                <!--column-->
+                <div class="col border ">
+                    this is a column
+                </div>
+                <div class="col border">
+                    second column
+                </div>
+                <div class="col border">
+                    third column
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col border">col</div>
+            </div>
+        </div>
+
+        <!-- MINI EXERCISE-->
+        <div class="container-fluid border exercise">
+            <!--row-->
+            <div class="row border">
+                <!--column-->
+                <div class="col"
+                     id="red-border">
+                    1 - 1
+                    <p class="drk-grn">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                                       laudantium magnam natus nesciunt, officia quas rem
+                                       sed tenetur. Accusantium aliquam illum, iste quidem
+                                       rerum soluta?</p>
+                </div>
+                <div class="col blue-bkg"
+                     id="blue-border">
+                    1 - 2
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col"
+                     id="orange-border">
+                    1 - 3
+                    <p class="drk-grn">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                                       laudantium magnam natus nesciunt, officia quas rem
+                                       sed tenetur. Accusantium aliquam illum, iste quidem
+                                       rerum soluta?</p>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col"
+                     id="pink-border">
+                    2 - 1
+                    <p class="drk-grn">Lorem ipsum dolor sit amet,
+                                       consectetur
+                                       adipisicing
+                                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                                       laudantium magnam natus nesciunt, officia quas rem
+                                       sed tenetur. Accusantium aliquam illum, iste quidem
+                                       rerum soluta?</p>
+                </div>
+                <div class="col blue-bkg"
+                     id="green-border">2 -2
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                       elit. Animi cupiditate ducimus ex ipsam ipsum
+                       laudantium magnam natus nesciunt, officia quas rem
+                       sed tenetur. Accusantium aliquam illum, iste quidem
+                       rerum soluta?</p>
+                </div>
+                <div class="col innerHTML"
+                     id="yellow-border">2 -3
+                    <p class="drk-grn" id="change-txt">Lorem ipsum dolor
+                                                       sit
+                                                       amet,
+                                                       consectetur
+                                                       adipisicing
+                                                       elit. Animi
+                                                       cupiditate ducimus
+                                                       ex ipsam ipsum
+                                                       laudantium magnam
+                                                       natus nesciunt,
+                                                       officia quas rem
+                                                       sed tenetur.
+                                                       Accusantium aliquam
+                                                       illum, iste quidem
+                                                       rerum solute?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORM -->
+        <form name="pizza">
+            <div>
+                <label for="topping">topping</label>
+                <input type="text" name="topping" id="topping">
+            </div>
+            <div>
+                <label for="topping">size</label>
+                <input type="text" name="size" id="size">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
