@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BOM Lecture</title>
+    </head>
+    <body>
+
+        <h1>BOM Lecture</h1>
+
+        <script>
+            let num = 3;
+
+            (function () {
+                "use strict";
+                var funcNum = 5;
+
+                window.open();
+
+                window.onload = function(){
+                  alert('Your window had loaded');
+                }
+                console.log(window.location);
+
+                var sayHello = setInterval (function() {
+                  alert("hello");
+                }, 5000);
+
+                clearInterval(sayHello);
+
+                function showTime() {
+
+                  // JS Date Object that returns new date and time
+                  let dateTime= new Date();
+
+                  // return the time
+                  let time = dateTime.toLocaleTimeString();
+
+                  console.log(time)
+                }
+
+                var clear = setInterval(showTime, 5000);
+
+                clearInterval(clear);
+
+//                 TODO: This program will run indefinitely. To finish coding this program, you’ll need to stop the setInterval() method after the showTime() function has run five times.
+// Save setInterval function to a variable
+// Pass the variable into the clearInterval function to stop the interval
+// Hint (It may be helpful to create an if statement
+
+                // let count = 0;
+                //
+                // function showTime() {
+                //
+                //     // return new date and time
+                //     let dateTime = new Date();
+                //
+                //     // return the time
+                //     let time = dateTime.toLocaleTimeString();
+                //
+                //     count += 1;
+                //
+                //     //if the count reaches 5, stop the program.
+                //
+                //     if(count === 5){
+                //         clearInterval(display);
+                //     }
+                //
+                //     console.log(time)
+                // }
+                //
+                // let display = setInterval(showTime, 2000);
+                // console.log("Bottom of the function")
+
+                let count = 0;
+
+                function greet(){
+                    console.log('Hello World!');
+                }
+
+                setTimeout(greet, 3000);
+
+                console.log('This message is shown first');
+
+                function showTime() {
+                    // return new date and time
+                    let dateTime= new Date();
+
+                    console.log(dateTime)
+                }
+
+// calling the function after set amount of time
+                var abort = setTimeout(showTime, 6000);
+
+                clearTimeout(abort);
+
+
+
+            })();
+
+        </script>
+
+    </body>
+</html>
