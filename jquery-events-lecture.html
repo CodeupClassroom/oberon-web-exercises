@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DOM Lecture</title>
+        <link rel="stylesheet"
+              href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background : #eee;
+                min-height : 1800px;
+            }
+
+            #override-bootstrap {
+                background-color : #28a745;
+            }
+
+            #main-title {
+                color : white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="override-bootstrap" class="container-fluid py-5 mb-3">
+            <h1 id="main-title" class="display-5 fw-bold text-center">Custom jumbotron</h1>
+        </div>
+        <main class="container">
+            <section class="row">
+                <div class="col">
+                    <h2>Some Table</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>First</th>
+                                <th>Last</th>
+                                <th>Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="jqClass">
+                                <td>1</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="jqClass">
+                                <td>2</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr class="jqClass">
+                                <td>3</td>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <h2>Some List</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item jqClass">Cras justo odio</li>
+                        <li class="list-group-item jqClass">Dapibus ac facilisis in</li>
+                        <li class="list-group-item jqClass">Morbi leo risus</li>
+                        <li class="list-group-item jqClass">Porta ac consectetur ac</li>
+                        <li class="list-group-item jqClass">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="row">
+                <div class="col-12">
+                    <h2>Some Items</h2>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch mb-3" data-attribute="1">
+                    <div class="card jqClass">
+                        <img src="assets/question.png" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Card </h3>
+                            <p class="card-text">Look at me!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch mb-3" data-attribute="2">
+                    <div class="card jqClass">
+                        <img src="assets/question.png" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Card </h3>
+                            <p class="card-text">No ME!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch mb-3" data-attribute="3">
+                    <div class="card jqClass">
+                        <img src="assets/question.png" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Card </h3>
+                            <p class="card-text">But I'm the best!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch mb-3" data-attribute="4">
+                    <div class="card jqClass">
+                        <img src="assets/question.png" alt="" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Card </h3>
+                            <p class="card-text"><-- lies</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="row">
+                <div class="col">
+                    <h2>Some Form</h2>
+                    <form action="" method="POST" name="user">
+                        <div class="form-group">
+                            <label for="first">First Name</label>
+                            <input class="form-control" type="text" name="first" id="first"
+                                   placeholder="Enter First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last">Last Name</label>
+                            <input class="form-control" type="text" name="last" id="last"
+                                   placeholder="Enter Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="redirect-url">URL</label>
+                            <input class="form-control" type="text" name="handleField" id="redirect-url"
+                                   placeholder="Enter URL">
+                        </div>
+                        <div class="d-grid my-2">
+                            <button type="button" class="btn btn-primary" id="submitBtn">Submit
+                            </button>
+                            <button type="button" class="btn btn-primary mt-3" id="resetBtn">Reset
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/jquery/jquery-events-lecture.js"></script>
+
+    </body>
+</html>
