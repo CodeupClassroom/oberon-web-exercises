@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Konami Code</title>
+  </head>
+  <body>
+    <h1>Konami Code</h1>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      "use strict";
+
+      let konamiArr = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
+      let userArr = [];
+      $(document).keyup(function(event){
+        console.log(event.keyCode);
+
+        if (event.keyCode === konamiArr[0]){
+          userArr.push(konamiArr.shift())
+        }else{
+          konamiArr.unshift(...userArr);
+          console.log(`Original Array: ${konamiArr}`);
+        }
+
+        if (konamiArr.length === 0){
+          alert("CONNNNNNNNTRAAAAAAAA!!!!");
+          konamiArr = userArr;
+          console.log(`Original Array: ${konamiArr}`);
+        }
+      });
+    </script>
+  </body>
+</html>
