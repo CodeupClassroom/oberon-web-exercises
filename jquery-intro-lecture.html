@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <!-- bootstrap before css-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+          crossorigin="anonymous">
+    <!-- css -->
+    <style>
+        .purple {
+        background-color: lavender;
+    }
+
+    .pink {
+        background-color: lightpink;
+    }
+
+    .orange {
+        background-color: orange;
+    }
+    </style>
+
+<!--    <link rel="stylesheet"-->
+<!--          href="./jquery-intro-lecture.css">-->
+    <title>jQuery Intro</title>
+</head>
+
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Let's learn some javascript</h1>
+        <p class="lead"
+           id="change-text">Change this text using
+            jQuery
+        </p>
+    </div>
+</div>
+<div class="container top-pars">
+    <div class="row justify-content-center bg-danger">
+        <div class="col-2 border">
+            <p>first paragraph</p>
+        </div>
+        <div class="col-2 border">
+            <p id="second">second paragraph</p>
+        </div>
+        <div class="col-2 border">
+            <p>third paragraph</p>
+        </div>
+        <div class="col-2 border">
+            <p>fourth paragraph</p>
+        </div>
+    </div>
+</div>
+
+<!--purple divs-->
+<div class="container top-pars">
+    <div class="row justify-content-center">
+        <div class="col-2 border purple">
+            <p class="purple-par">first paragraph</p>
+        </div>
+        <div class="col-2 border purple">
+            <p class="purple-par">second paragraph</p>
+        </div>
+        <div class="col-2 border purple">
+            <p class="purple-par">third paragraph</p>
+        </div>
+        <div class="col-2 border purple">
+            <p class="purple-par">fourth paragraph</p>
+        </div>
+    </div>
+</div>
+
+<!-- selecting children elements-->
+<ul>
+    <li>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+</ul>
+
+<!-- mini exercise-->
+<!-- ignore this first container until next mini exercise-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-4 pink border">
+            pink - hide on window load
+        </div>
+        <div class="row-4 orange border">
+            orange - hide on dom load
+        </div>
+    </div>
+</div>
+
+<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eaque magnam molestiae officiis quo, ullam veritatis. A amet
+    excepturi hic illum ipsum laborum mollitia nam nisi porro
+    praesentium, quo saepe, tempora?
+</div>
+<div class="container ">
+    <div class="row justify-content-center">
+        <div class="col-3 border">
+            <p id="blue">Lorem ipsum dolor sit amet, <span>you can
+                                                               remove
+                                                         me
+                    </span>consectetur
+                adipisicing
+                elit. Ad aliquid atque dolores iste
+                mollitia totam.
+            </p>
+        </div>
+        <div class="col-3 border">
+            <p class="show-me">Lorem ipsum dolor
+                sit amet, <span>you
+                                                                    can
+                                                             remove
+                                                         me
+                    </span>consectetur
+                adipisicing
+                elit. Ad aliquid atque dolores iste
+                mollitia totam.
+            </p>
+        </div>
+        <div class="col-3 border">
+            <p>Lorem ipsum dolor sit amet, <span>you can remove
+                                                         me
+                    </span>consectetur
+                adipisicing
+                elit. Ad aliquid atque dolores iste mollitia totam.
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-3 border">
+            <p class="show-me">Lorem ipsum dolor sit amet,
+                <span>you can remove
+                                                         me
+                    </span>consectetur
+                adipisicing
+                elit. Ad aliquid atque dolores iste
+                mollitia totam.
+            </p>
+        </div>
+        <div class="col-3 border">
+            <p class="show-me"
+               id="all-caps">LOREM IPSUM DOLOR SIT
+                AMET,
+                <span> you can remove me</span>
+                CONSECTETUR ADIPISCING ELIT.
+                ILLUM, ULLAM.
+            </p>
+
+        </div>
+        <div class="col-3 border">
+            <p class="show-me">Lorem ipsum dolor sit amet,
+                <span>you can
+                                                             remove
+                                                         me
+                    </span>consectetur
+                adipisicing
+                elit. Ad aliquid atque dolores iste
+                mollitia totam.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- window.onload -->
+<div class="container">
+    <div class="row justify-content-center">
+        <img src="https://random.dog/6fb26279-08fb-4e36-9c70-b8d5b1785f87.jpg"
+             alt="2-doggos-hugging"
+             class="col-8">
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <button class="border">Click Me!</button>
+    </div>
+</div>
+
+
+<!--STEP ONE: DOWNLOAD JQUERY-->
+<!--JQUERY DOWNLOADED-->
+<!--<script src="jquery-2.2.4.js"></script>-->
+
+<script src="../../"></script>
+
+<!-- EITHER CHOOSE JQUERY DOWNLOADED **OR** CDN -->
+
+<!--JQUERY VIA CDN-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<!--&lt;!&ndash; STEP TWO: INCLUDE BOOTSTRAP AFTER JQUERY IF NEEDED&ndash;&gt;-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"-->
+<!--        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"-->
+<!--        crossorigin="anonymous"></script>-->
+
+<!-- STEP THREE: LINK YOUR JS FILE-->
+<script src="./js/jquery/jquery-intro-lecture.js"></script>
+</body>
+</html>
+
