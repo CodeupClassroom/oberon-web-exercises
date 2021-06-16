@@ -9,36 +9,47 @@
   <title>JS Promises</title>
 </head>
 <body>
-<h1>Promises using fetch</h1>
+<h1>Promises Lecture</h1>
 <hr>
-<h4>What's a promise?</h4>
-<ul>
-  <h6>Three States</h6>
-  <li>pending</li>
-  <li>resolved</li>
-  <li>rejected</li>
-</ul>
+<div>
+    <h4>What's a promise?</h4>
+    <p>A promise is an object that contains two properties (state and result). The state will always be one of the
+        following three: pending, resolved, rejected. A promise will remain in pending until it receives a result. The
+        result will always be either resolved (the result comes back successfully) or rejected (there was an error with
+        getting the result). The <i>result</i> will change depending on where/how you use the promise. Oftentimes, a
+        promise is used with API calls, because <strong>promises allow for asynchronous coding.</strong> This allows you to make an
+        API request and the rest of your code will continue, but your promise will <i>promise</i>> to execute something
+        depending on whether your request was made successfully or will execute something else if there was an error
+        with the request.</p>
+</div>
 
+<h6>Three States</h6>
+<ul>
+    <li>pending: your promise is still waiting for a response/result</li>
+    <li>resolved: your promise may continue to execute because the response/result was successful</li>
+    <li>rejected: your promise will not continue because the response/result was not successful, there was an error</li>
+</ul>
+<hr>
 <h4>Async vs Sync</h4>
 <table>
-  <tr>
-    <td>Async</td>
-    <td>Sync</td>
-  </tr>
-  <tr>
-    <td>no waiting</td>
-    <td>executed in sequence</td>
-  </tr>
-  <tr>
-    <td>various functions can be running at the same time</td>
-    <td>each function gets executed one at a time</td>
-  </tr>
+    <tr>
+        <td>Async</td>
+        <td>Sync</td>
+    </tr>
+    <tr>
+        <td>no waiting</td>
+        <td>executed in sequence</td>
+    </tr>
+    <tr>
+        <td>various functions can be running at the same time</td>
+        <td>each function gets executed one at a time</td>
+    </tr>
 </table>
-
-<h4>Fetch</h4>
-<p>Just a different way to make requests</p>
+<hr>
+<div height="50px"></div>
 
 <h3>Basic Fetch Get Request</h3>
+<hr>
 <pre><code>fetch('url')
   .then(response => response.json())
   .then(data => console.log(data));
@@ -48,16 +59,16 @@
 
 <h5>let's break it down:</h5>
 <p>
-  <code>.fetch('url')</code>: this takes in the url which you're wanting to make the call
+    <code>.fetch('url')</code>: this takes in the url which you're wanting to make the call
 </p>
 <p>
-  <code>.then()</code>: this returns a promise and is chain-able and takes in a function whose parameter is the result
-  of a promise (from fetch or previous then statement) and this will be executed if the promise is SUCCESSFUL
+    <code>.then()</code>: this returns a promise and is chain-able and takes in a function whose parameter is the result
+    of a promise (from fetch or previous then statement) and this will be executed if the promise is SUCCESSFUL
 </p>
 <p>
-  <code>.catch()</code>: this returns a promise and is chain-able and takes in a function whose parameter is the
-  result
-  of a promise (from fetch or previous then statement) and this will be executed if there is an ERROR
+    <code>.catch()</code>: this returns a promise and is chain-able and takes in a function whose parameter is the
+    result
+    of a promise (from fetch or previous then statement) and this will be executed if there is an ERROR
 </p>
 
 <h3>Let's add .catch()</h3>
@@ -71,15 +82,14 @@
 
 <h5>let's break it down:</h5>
 <p>
-  <code>.catch()</code>: this will catch and return any errors, also chain-able
+    <code>.catch()</code>: this will catch and return any errors, also chain-able
 </p>
 
-<h3>Dog API</h3>
-<div>
-  <img src="" alt="" id="random-dog-image">
-</div>
+<div height="50px"></div>
+
 
 <h3>Fetch using POST request</h3>
+<hr>
 
 <pre><code>const data = { title: 'example-title' };
 
@@ -101,9 +111,9 @@ fetch('https://jsonplaceholder.typicode.com/todos', {
 
 <h5>let's break it down:</h5>
 <p>
-  <code>.fetch('url', {options})</code>: this takes in the url which you're wanting to make the call <br>
-  <code>{options}</code>: To do a POST request we need to specify additional parameters with the request such as
-  method, headers, etc.
+    <code>.fetch('url', {options})</code>: this takes in the url which you're wanting to make the call <br>
+    <code>{options}</code>: To do a POST request we need to specify additional parameters with the request such as
+    method, headers, etc.
 </p>
 <p>
 <pre><code>.fetch('url', {
@@ -117,10 +127,40 @@ fetch('https://jsonplaceholder.typicode.com/todos', {
 making a request
 
 </p>
+<div height="50px"></div>
+
 
 <h3>Creating Promises</h3>
+<hr>
 <img src="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/promises.png" alt="">
+<div height="50px"></div>
 
+
+<h2> Mini Exercises Results</h2>
+<hr>
+<h3>Dog API</h3>
+<div>
+    <img src="" alt="" id="random-dog-image" height="300px" margin-left="50px">
+</div>
+<div height="50px"></div>
+
+<h3>Get Comments with a specific Id</h3>
+<hr>
+<ol>
+    <h6> HINTS </h6>
+    <li>make your second api call to this url:
+        https://jsonplaceholder.typicode.com/comments?postId=${enter-id-from-first-request-here}
+    </li>
+    <li>console the data coming back … it’s probably an array of comments</li>
+    <li>loop through the array of comments</li>
+    <li>use jquery to append values into new elements to the dom</li>
+</ol>
+
+<h4>Mini Exercise Solution</h4>
+<hr>
+<div id="comments">
+
+</div>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
