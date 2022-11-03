@@ -26,7 +26,6 @@ Open codeup-web-exercises in IntelliJ and do the following in the IntelliJ termi
 
 GREEN CUP!
 
-<div style="page-break-after: always;"></div>
 ## (optional) Challenge Exercise
 
 1. Create a folder on your desktop called "class-resources" and open with IntelliJ
